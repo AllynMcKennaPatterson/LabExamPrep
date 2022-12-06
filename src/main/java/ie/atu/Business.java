@@ -51,4 +51,8 @@ public class Business {
             throw new IllegalArgumentException("Id must be a positive number");
         }
     }
+
+    public static void main(String[] args) {
+        System.out.println("Test that Docker image is running...");
+    }
 }
